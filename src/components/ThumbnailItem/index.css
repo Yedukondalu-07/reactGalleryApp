@@ -1,0 +1,29 @@
+/* Write your code here. */
+.thumnails-container {
+  margin: 0px 16px 16px 0px;
+  align-items: flex-start;
+}
+.thumbnail-button {
+  background-color: transparent;
+  border: none;
+  padding: 0px;
+  outline: none;
+  cursor: pointer;
+}
+.active-btn {
+  cursor: pointer;
+  border: none;
+}
+.non-active-btn {
+  cursor: pointer;
+  border: none;
+  opacity: 0.5;
+}
+.img {
+  height: 120px;
+}
+@media (max-width: 767px){
+  .img {
+    height: 64px;
+  }
+}
